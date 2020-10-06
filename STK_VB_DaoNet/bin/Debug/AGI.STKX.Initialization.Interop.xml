@@ -1,0 +1,79 @@
+<doc>
+  <assembly>
+    <name>AGI.STKX.Initialization</name>
+  </assembly>
+  <members>
+    <member name="T:AGI.STKX.Initialization.IAgSTKXInitializeEvents">
+      <summary>STK X Initialize events.</summary>
+    </member>
+    <member name="T:AGI.STKX.Initialization.IAgSTKXInitialize">
+      <summary>STK X Advanced Initialization Options.</summary>
+    </member>
+    <member name="M:AGI.STKX.Initialization.IAgSTKXInitialize.InitializeActivationContext">
+      <summary>Initialize the activation context to be used by STK Engine based on the current activation context.</summary>
+    </member>
+    <member name="M:AGI.STKX.Initialization.IAgSTKXInitialize.InitializeData(System.String,System.String)">
+      <summary>Copy the virtual registry to the Config directory and initialize it with the install home specified.</summary>
+      <param name="InstallHome"></param>
+      <param name="ConfigDirectory"></param>
+    </member>
+    <member name="M:AGI.STKX.Initialization.IAgSTKXInitialize.InitializeDataEx(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+      <summary>Copy the virtual registry to the Config directory and initialize it with the install home specified, and config options.</summary>
+      <param name="InstallHome"></param>
+      <param name="ConfigDirectory"></param>
+      <param name="bDefaults"></param>
+      <param name="bStyles"></param>
+      <param name="bVGT"></param>
+      <param name="bAMM"></param>
+      <param name="bGator"></param>
+      <param name="bOnlineData"></param>
+      <param name="bOnlineSGP4"></param>
+    </member>
+    <member name="T:AGI.STKX.Initialization.AgSTKXInitialize">
+      <summary>STK X Initialize object.</summary>
+    </member>
+    <member name="M:AGI.STKX.Initialization.AgSTKXInitialize.InitializeActivationContext">
+      <summary>Initialize the activation context to be used by STK Engine based on the current activation context.</summary>
+    </member>
+    <member name="M:AGI.STKX.Initialization.AgSTKXInitialize.InitializeData(System.String,System.String)">
+      <summary>Copy the virtual registry to the Config directory and initialize it with the install home specified.</summary>
+      <param name="InstallHome"></param>
+      <param name="ConfigDirectory"></param>
+    </member>
+    <member name="M:AGI.STKX.Initialization.AgSTKXInitialize.InitializeDataEx(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+      <summary>Copy the virtual registry to the Config directory and initialize it with the install home specified, and config options.</summary>
+      <param name="InstallHome"></param>
+      <param name="ConfigDirectory"></param>
+      <param name="bDefaults"></param>
+      <param name="bStyles"></param>
+      <param name="bVGT"></param>
+      <param name="bAMM"></param>
+      <param name="bGator"></param>
+      <param name="bOnlineData"></param>
+      <param name="bOnlineSGP4"></param>
+    </member>
+    <member name="T:AGI.STKX.Initialization.AgSTKXInitializeClass">
+      <summary>STK X Initialize object.</summary>
+    </member>
+    <member name="M:AGI.STKX.Initialization.AgSTKXInitializeClass.InitializeActivationContext">
+      <summary>Initialize the activation context to be used by STK Engine based on the current activation context.</summary>
+    </member>
+    <member name="M:AGI.STKX.Initialization.AgSTKXInitializeClass.InitializeData(System.String,System.String)">
+      <summary>Copy the virtual registry to the Config directory and initialize it with the install home specified.</summary>
+      <param name="InstallHome"></param>
+      <param name="ConfigDirectory"></param>
+    </member>
+    <member name="M:AGI.STKX.Initialization.AgSTKXInitializeClass.InitializeDataEx(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+      <summary>Copy the virtual registry to the Config directory and initialize it with the install home specified, and config options.</summary>
+      <param name="InstallHome"></param>
+      <param name="ConfigDirectory"></param>
+      <param name="bDefaults"></param>
+      <param name="bStyles"></param>
+      <param name="bVGT"></param>
+      <param name="bAMM"></param>
+      <param name="bGator"></param>
+      <param name="bOnlineData"></param>
+      <param name="bOnlineSGP4"></param>
+    </member>
+  </members>
+</doc>
